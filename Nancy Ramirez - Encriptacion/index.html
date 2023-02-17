@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+    <header><h1>Sistema Encriptador de Texto</h1></header>
+    <main>
+      <section class="section1">
+        <input
+          type="text"
+          name=""
+          id="texto"
+          placeholder="---> Ingrese una cadena de texto ----"
+        />
+        <button id="botonEncriptar">Encriptar texto</button>
+        <button id="botonDesencriptar">Desencriptar texto</button>
+      <article id="result">
+        <h3>Texto anterior:</h3>
+        <input type="text" name="" id="textAnt" readonly />
+      </article>
+      <button id="botonReiniciar">Reiniciar</button>
+    </section>
+      <aside>
+        <img src="images/idea.png" alt="" id="muñeco"/>
+        <div class="mensaje-encriptado">
+          <h2 id="titulo-mensaje">Bienvenido</h2>
+          <p id="parrafo">
+            Ingresa el texto que deseas encriptar o desencriptar
+          </p>
+        </div>
+      </aside>
+    </main>
+    <footer>
+      <p id="textoFoo">Nancy Lisseth Ramirez Servellón</p>
+    </footer>
+  </body>
+  <script src="/script.js"></script>
+</html>
